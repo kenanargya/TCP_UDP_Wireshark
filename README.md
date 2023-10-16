@@ -19,5 +19,16 @@ the data-transfer part of the TCP connection sent?
 ### 9. Are there any retransmitted segments in the trace file? What did you check for (in the trace) in order to answer this question?
 ### 10. How much data does the receiver typically acknowledge in an ACK among the first ten data-carrying segments sent from the client to gaia.cs.umass.edu? Can you identify cases where the receiver is ACKing every other received segment (see Table 3.2 in the text) among these first ten data-carrying segments?
 ### 11. What is the throughput (bytes transferred per unit time) for the TCP connection? Explain how you calculated this value.
+### 12. Use the Time-Sequence-Graph(Stevens) plotting tool to view the sequence number versus time plot of segments being sent from the client to the gaia.cs.umass.edu server.
+### 13. These “fleets” of segments appear to have some periodicity. What can you say about the period?
 
 ## UDP Problems
+
+### 1.Select the first UDP segment in your trace. What is the packet number4 of this segment in the trace file?
+### 2. By consulting the displayed information in Wireshark’s packet content field for this packet (or by consulting the textbook), what is the length (in bytes) of each of the UDP header fields?
+### 3. The value in the Length field is the length of what? (You can consult the text for this answer). Verify your claim with your captured UDP packet.
+### 4. What is the maximum number of bytes that can be included in a UDP payload?
+### 5. What is the largest possible source port number?
+### 6. What is the protocol number for UDP?
+### 7. Examine the pair of UDP packets in which your host sends the first UDP packet and the second UDP packet is a reply to this first UDP packet.
+ 
