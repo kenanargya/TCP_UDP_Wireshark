@@ -39,7 +39,7 @@ What is the sequence number of the TCP segment containing the header of the HTTP
 ### Answer
 ![image](https://github.com/kenanargya/TCP_UDP_Wireshark/assets/92387421/fd7463ed-66be-4e13-ab42-99540641ab6e)
 Sequence: 4236801228  
-Payload: 1385 bytes
+Payload: 1385 bytes  
 No
 
 ### 6. 
@@ -75,17 +75,30 @@ These “fleets” of segments appear to have some periodicity. What can you say
 ## UDP Problems
 
 ### 1. 
-Select the first UDP segment in your trace. What is the packet number4 of this segment in the trace file?
+Select the first UDP segment in your trace. What is the packet number4 of this segment in the trace file? What type of application-layer payload or protocol message is being carried in this UDP segment? Look at the details of this packet in Wireshark. How many fields there are in the UDP header?
+### Answer
+![image](https://github.com/kenanargya/TCP_UDP_Wireshark/assets/92387421/9dd074f0-e768-4e67-9265-d4fe016446cf)
+Packet Number: 5
+Application Layer Protocol: SSDP
+Fields: Source port, destination port, length, and checksum
+
 ### 2. 
 By consulting the displayed information in Wireshark’s packet content field for this packet (or by consulting the textbook), what is the length (in bytes) of each of the UDP header fields?
+### Answer
+Masing-masing field adalah 16 bit atau 2 byte, karena ada 4 field maka length masing-masing header dari UDP adalah 8 byte
+
 ### 3. 
 The value in the Length field is the length of what? (You can consult the text for this answer). Verify your claim with your captured UDP packet.
+
 ### 4. 
 What is the maximum number of bytes that can be included in a UDP payload?
+
 ### 5. 
 What is the largest possible source port number?
+
 ### 6. 
 What is the protocol number for UDP?
+
 ### 7. 
 Examine the pair of UDP packets in which your host sends the first UDP packet and the second UDP packet is a reply to this first UDP packet.
  
