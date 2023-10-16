@@ -47,6 +47,8 @@ The value in the Length field is the length of what? (You can consult the text f
 What is the maximum number of bytes that can be included in a UDP payload?
 ### 5. 
 What is the largest possible source port number?
-### 6. What is the protocol number for UDP?
-### 7. Examine the pair of UDP packets in which your host sends the first UDP packet and the second UDP packet is a reply to this first UDP packet.
+### 6. 
+What is the protocol number for UDP?
+### 7. 
+Examine the pair of UDP packets in which your host sends the first UDP packet and the second UDP packet is a reply to this first UDP packet.
  
