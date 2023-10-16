@@ -27,7 +27,7 @@ the data-transfer part of the TCP connection sent?
 ### 7. 
 What is the length (header plus payload) of each of the first four data-carrying TCP segments?
 ### 8. 
-What is the minimum amount of available buffer space advertised to the client by gaia.cs.umass.edu among these first four data-carrying TCP segments7? Does the lack of receiver buffer space ever throttle the sender for these first four datacarrying segments?
+What is the minimum amount of available buffer space advertised to the client by gaia.cs.umass.edu among these first four data-carrying TCP segments7? Does the lack of receiver buffer space ever throttle the sender for these first four data-carrying segments?
 ### 9. 
 Are there any retransmitted segments in the trace file? What did you check for (in the trace) in order to answer this question?
 ### 10. 
