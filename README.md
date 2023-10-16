@@ -8,8 +8,19 @@
 
 ### 1. 
 What is the IP address and TCP port number used by the client computer (source) that is transferring the alice.txt file to gaia.cs.umass.edu?
+### Answer
+![image](https://github.com/kenanargya/TCP_UDP_Wireshark/assets/92387421/0207547c-d925-4e93-a160-9f00acd5725d)
+
+IP Address: 192.168.86.68  
+TCP Port: 55639
+
 ### 2. 
 What is the IP address of gaia.cs.umass.edu? On what port number is it sending and receiving TCP segments for this connection?
+### Answer
+![image](https://github.com/kenanargya/TCP_UDP_Wireshark/assets/92387421/0207547c-d925-4e93-a160-9f00acd5725d)
+IP Address: 128.119.245.12  
+TCP Port: 80
+
 ### 3. 
 What is the sequence number of the TCP SYN segment that is used to initiate the TCP connection between the client computer and gaia.cs.umass.edu? What is it in this TCP segment that identifies the segment as a SYN segment? Will the TCP receiver in this session be able to use Selective Acknowledgments (allowing TCP to function a bit more like a “selective repeat” receiver, see section 3.4.5 in the text)?
 ### 4. 
