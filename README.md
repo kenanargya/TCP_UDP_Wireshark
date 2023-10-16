@@ -31,7 +31,7 @@ Flags: 0x002 (SYN)
 What is the sequence number of the SYNACK segment sent by gaia.cs.umass.edu to the client computer in reply to the SYN? What is it in the segment that identifies the segment as a SYNACK segment? What is the value of the Acknowledgement field in the SYNACK segment? How did gaia.cs.umass.edu determine that value?
 ### Answer
 ![image](https://github.com/kenanargya/TCP_UDP_Wireshark/assets/92387421/2b7c3c5a-18e0-4c55-952a-e4b75af896a6)
-Sequence: 1068969752
+Sequence: 1068969752  
 Flags: 0x0012 (SYN, ACK)
 
 ### 5. 
